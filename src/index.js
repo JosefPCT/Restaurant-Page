@@ -34,14 +34,14 @@ function tabSwitch(e){
     if(e.target.id === "menu"){
         console.log("removing div#content contents...");
         contentContainer.innerHTML = "";
-        console.log("creating home page");
+        console.log("creating menu page");
         menu.create();    
     }
 
     if(e.target.id === "about"){
         console.log("removing div#content contents...");
         contentContainer.innerHTML = "";
-        console.log("creating home page");
+        console.log("creating about page");
         about.create();    
     }
 }
