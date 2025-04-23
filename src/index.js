@@ -2,9 +2,12 @@ import "./styles.css";
 import { test } from "./greeting.js";
 import { Home } from "./home.js"
 import { Menu } from "./menu.js";
+import { About } from "./about.js";
 
 const home = new Home;
 const menu = new Menu;
+const about = new About;
+
 
 console.log(test);
 console.log("Initializing...");
@@ -39,6 +42,6 @@ function tabSwitch(e){
         console.log("removing div#content contents...");
         contentContainer.innerHTML = "";
         console.log("creating home page");
-        home.create();    
+        about.create();    
     }
 }
